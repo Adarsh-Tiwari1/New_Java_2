@@ -29,19 +29,74 @@ class string{
 }
 */
 
-// 1 - (c)
+
+
+
+// 3
+import java.util.Scanner;
+
+public class NamesWithHe {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Array to hold 10 names
+        String[] names = new String[10];
+
+        // Input 10 names
+        System.out.println("Enter 10 names:");
+        for (int i = 0; i < names.length; i++) {
+            System.out.print("Name " + (i + 1) + ": ");
+            names[i] = scanner.nextLine();
+        }
+
+        // Display names containing "he"
+        System.out.println("\nNames containing 'he':");
+        boolean found = false;
+        for (String name : names) {
+            if (name.toLowerCase().contains("he")) {
+                System.out.println(name);
+                found = true;
+            }
+        }
+
+        if (!found) {
+            System.out.println("No names contain 'he'.");
+        }
+
+        scanner.close();
+    }
+}
+
+
+
+
+
+// 4
+/*
+class string{
+    public static void main(String[] args) {
+        String str = "Welcome";
+        StringBuilder sb = new StringBuilder(str);
+        String str1 = sb.reverse().toString(); 
+        System.out.println(str1); 
+    }
+}
+*/
 
 
 
 // 5
 /*
-import java.util.Scanner;
-
-class Str{
+class string{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter String : ");
+        String str = "Welcome To Bhopal";
+        boolean flag = false;
+        String[] str1 = str.split(" ");
+        for(int i=0;i<str1.length;i++){
+            System.out.println(" String Word Length is :" + str1.length);
+            flag = true;
+            break;
+        }
     }
 }
 */
-
