@@ -9,24 +9,24 @@ import java.util.Scanner;
 
 class Method1{
     void add(){
-        System.out.println("===Enter Addition Function===");
-        int a,b,c;
+        System.out.println("===Enter Function===");
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Value A :");
-        a = sc.nextInt();
-        System.out.println("Enter Value A :");
-        b = sc.nextInt();
-        c = a+b;
-        System.out.println("Addition :"+ c);
-        System.out.println("===Exit Addition Function===");
+        System.out.println("Enter 1st Number");
+        int num = sc.nextInt();
+        System.out.println("Enter 2nd Number");
+        int num2 = sc.nextInt();
+        int Result = num + num2;
+        System.out.println("Addition :" + Result);
+        System.out.println("===Exit Function===");
     }
-    public static void main(String[] ares){
+    public static void main(String[] are){
+        System.out.println("===Enter Main Method===");
         Method1 obj = new Method1();
         obj.add();
+        System.out.println("===Exit Main Method===");
     }
 }
 */
-
 
 // static ke under static method direct access ho sakte hai aur nahi ho sakte hai.
 // call default constructor automatically
@@ -222,3 +222,19 @@ class Method1{
     }
 }
 */
+
+
+
+class Method1{
+    public static void printLetter(String str){
+        for(int i=0;i<str.length();i++){
+            System.out.print(str.charAt(i) + " ");
+        }
+    }
+    public static void main(String[] args){
+        String firstName = "Adarsh";
+        String lastNmae = "Tiwari";
+        String fullName = firstName + " " + lastNmae;
+        printLetter(fullName);
+    }
+}
