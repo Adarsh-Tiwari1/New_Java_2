@@ -33,23 +33,22 @@ class string{
 
 
 // 3
+/*
 import java.util.Scanner;
 
-public class NamesWithHe {
+public class string {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Array to hold 10 names
-        String[] names = new String[10];
-
-        // Input 10 names
+        String[] names = new String[10]
+        
         System.out.println("Enter 10 names:");
         for (int i = 0; i < names.length; i++) {
             System.out.print("Name " + (i + 1) + ": ");
             names[i] = scanner.nextLine();
         }
 
-        // Display names containing "he"
+        
         System.out.println("\nNames containing 'he':");
         boolean found = false;
         for (String name : names) {
@@ -66,7 +65,7 @@ public class NamesWithHe {
         scanner.close();
     }
 }
-
+*/
 
 
 
@@ -100,3 +99,28 @@ class string{
     }
 }
 */
+
+
+// Palindrom String .
+
+
+class string{
+    public static void printLetter(String str){
+        for(int i=0;i<str.length();i++){
+            System.out.print(str.charAt(i) + " ");
+        }
+    }
+    public static boolean isPalindrom(String str){
+        for(int i=0;i<str.length()/2;i++){
+            int n = str.length();
+            if(str.charAt(i)!=str.charAt(n-1-i)){
+                return false;
+            }
+        }
+        return true;
+    }
+    public static void main(String[] args){
+        String str = "adarsh";
+        System.out.println(isPalindrom(str));
+    }
+}
