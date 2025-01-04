@@ -1,30 +1,5 @@
-// Method 
 /*
 import java.util.Scanner;
-
-class Method{
-    public void add(){
-        int a,b,c;
-        System.out.println("Add Function is Called");
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Value of A : ");
-        a = sc.nextInt();
-        System.out.println("Enter Value of B : ");
-        b = sc.nextInt();
-        c = a+b;
-        System.out.println("Addition :" + c);
-    }
-    public static void main(String[] args){
-        Method obj = new Method();
-        obj.add();
-    }
-}
-*/
-
-/*
-import java.util.Scanner;
-
 class Method{
     public void Sum(){
         Scanner sc = new Scanner(System.in);
@@ -43,10 +18,8 @@ class Method{
 }
 */
 
-
 /*
 import java.util.Scanner;
-
 public class Method {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -67,6 +40,23 @@ public class Method {
             System.out.println(number + " is a prime number.");
         } else {
             System.out.println(number + " is not a prime number.");
+        }
+    }
+}
+*/
+
+
+
+/*
+class Method{
+    public static void main(String[] args){
+        System.out.println("Happy New Year 2025");
+        int count = 0;
+        for(int i=0;i<=0;i++){
+            if(i==0){
+                count++;
+            }
+            System.out.println(count);
         }
     }
 }
