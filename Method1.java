@@ -34,6 +34,7 @@ class Method1{
 // stack : temperory : ram 
 
 // taking something returning nothing.
+
 /*
 import java.util.Scanner;
 
@@ -53,6 +54,8 @@ class Method1{
     }
 }
 */
+
+
 
 // taking nothing returning something
 
@@ -97,6 +100,21 @@ class Method1{
 
         int r = obj.add(num1,num2);
         System.out.println("Add : " + r);
+    }
+}
+*/
+// taking something returning nothing 
+/*
+class Method1{
+    int add(){
+
+    }
+    public static void main(String[] args){
+        int a=10;
+        int b=20
+        int c=a+b;
+        Method1 m = new Method1();
+        m.add();
     }
 }
 */
@@ -224,7 +242,7 @@ class Method1{
 */
 
 
-
+/*
 class Method1{
     public static void printLetter(String str){
         for(int i=0;i<str.length();i++){
@@ -238,3 +256,4 @@ class Method1{
         printLetter(fullName);
     }
 }
+*/
