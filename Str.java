@@ -211,3 +211,18 @@ class Str{
 }
 */
 
+
+/*
+class Str{
+    public static void main(String[] args) {
+        String str = "This is a test string";
+        int count = 0;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)=='i'){
+                count++;
+            }
+        }
+        System.out.println("The frequency of i is : " + count);
+    }
+}
+*/
