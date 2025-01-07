@@ -1,25 +1,40 @@
 
-class Encapsulation(
+    class Encapsulation{
     private int x;
-    private int y;
+    private int y;  // member data
 
-    public int getX(){
+    public int getx(){
         return x;
     }
-    public void  setX(int x){
+    public void  setx(int x){
         this.x = x;
     }
-    public int get Y(){
+    public int gety(){
         return y;
     }
-    public void s setY(int y){
+    public void  sety(int y){
         this.y = y;
+    }
+    public Encapsulation(){
+        x = 1;
+        y = 1;
+        System.out.println("Default Constructor is Called");
+    }
+    public Encapsulation(int a, int b){
+        x = a;
+        y = b;
+        System.out.println("Parameter Constructor is Called ");
+    }
+    public void showData(){
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(" ");
     }
     public static void main(String[] args){
         Encapsulation obj = new Encapsulation();
-        obj.setX(11);
-        obj.setY(22);
-        System.out.println(obj.getX());
-        System.out.println(obj.getY());
+        obj.setx(11);
+        obj.sety(22);
+        System.out.println(obj.getx());
+        System.out.println(obj.gety());
     }
-)
+}
