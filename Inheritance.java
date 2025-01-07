@@ -26,9 +26,7 @@ class inheritance{
 }
 */
 
-
-
-
+/*
 class Point{
 	public int x;
 	public int y;//instance variable
@@ -36,29 +34,21 @@ class Point{
 	public Point(){
 	System.out.println("Point class Default Constructor is called");
 	}
-	
 	public Point(int x,int y){
 	this.x=x;
 	this.y=y;
 	System.out.println("Point class Parameterized Constructor is called");
 	}
-	
 	void showData(){
 	System.out.println("X_CO : "+x);
 	System.out.println("Y_CO : "+y);
-	
 	}
 	void hi(){
 	System.out.println("Hi... Method is Called");
-	
 	int x=111;
 	int y=222;
 	System.out.printf("\nx=%d  Y=%d ",this.x,this.y);
-	
-	
 	}
-	
-	
 	}
 	class Circle extends Point{
 	float r;
@@ -79,13 +69,12 @@ class Point{
 	System.out.println("circle z= : "+z);
 	System.out.println("Point class z= : "+super.z);
 	}
-	
 	public static void main(String args[]){
 	//Circle c1=new Circle();
 	//Point class default constructor (1)and Circle class default constructor(2)
 	Circle c2=new Circle(11,22,5.6f);
 	c2.showData();
 	}
-	
-	
 }
+*/
+
