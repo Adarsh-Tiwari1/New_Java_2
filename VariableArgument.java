@@ -20,6 +20,7 @@ class VariableArgument {
 }
 */
 
+
 /*
 class VariableArgument {   
     public static void add(int z,int...x){ 
