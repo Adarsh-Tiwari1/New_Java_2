@@ -169,3 +169,101 @@ class Class{
 
 
 // best acces specifier protected
+
+
+
+
+
+
+
+
+// Class.java
+/*
+class Class {
+    public static void main(String[] args) {
+        System.out.println("class");
+        B.main(args);
+    }
+}
+class B{
+    public static void main(String[] args) {
+        System.out.println("B");
+    }
+}
+class C{
+    public static void main(String[] args) {
+        System.out.println("c");
+    }
+}
+class D{
+    public static void main(String[] args) {
+        System.out.println("D");
+    }
+}
+*/
+
+/*
+class A{
+    public static void main(String[] args) {
+        System.out.println("A");
+    }
+}class B{
+    public static void main(String[] args) {
+        System.out.println("B");
+    }
+}class C{
+    public static void main(String[] args) {
+        System.out.println("C");
+    }
+}class Class{
+    public static void main(String[] args) {
+        System.out.println("Main class");
+        A.main(args);
+        B.main(args);
+    }
+}class D{
+    public static void main(String[] args) {
+        System.out.println("D");
+    }
+}
+*/
+
+/*
+class A{
+    public static void main(String[] args) {
+        System.out.println("A");
+    }
+}
+class B{
+    public static void main(String[] args) {
+        System.out.println("B");
+    }
+}
+class C{
+    public static void main(String[] args) {
+        System.out.println("C");
+    }
+}
+class Class{
+    public static void main(String[] args) {
+        System.out.println("Class");
+        A.main(args);
+        B.main(args);
+        C.main(args);
+    }
+}
+*/
+
+/*
+class Hello{
+    public static void fix(){
+        System.out.println("Hello i am static method");
+    }
+}
+class Class{
+    public static void main(String[] args) {
+        System.out.println("Main method");
+        Hello.fix();
+    }
+}
+*/
